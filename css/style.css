@@ -584,6 +584,13 @@ header .header-col.mid .social-icons {
     min-height: 360px;
 }
 
+#subheader2 {
+    text-align: center;
+    overflow: hidden;
+    padding: 0px 0 90px 0;
+    position: relative;
+}
+
 /* ================================================== */
 
 
@@ -1019,6 +1026,11 @@ footer {
     /*background:url('../images/logo-big.png') -50% center no-repeat var(--primary-color) !important;*/
     color: #ffffff;
     padding: 80px 0 0 0;
+}
+
+.footer_index {
+    padding: 90px 0 90px 0;
+    position: relative;
 }
 
 .dark-scheme footer{
@@ -14449,21 +14461,21 @@ a.btn-slider:hover {
       }
 
       #de-carousel .carousel-item:nth-child(1) {
-        background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+        /*background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
       }
 
       #de-carousel .carousel-item:nth-child(2) {
-        background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+        /*background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
       }
 
       #de-carousel .carousel-item:nth-child(3) {
-        background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+        /*background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -16058,3 +16070,12 @@ img {
         top: -21px;
     }
 }
+
+.background-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
